@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(235, 218, 255);
+    font-family: sans-serif;
+    margin: 0px;
+}
+th,td{
+    padding: 0.5rem;
+}
+h1{
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
+    margin-top: 0;
+    border-bottom: solid 2px blueviolet;
+    background-color: rgb(220, 189, 255);
+}
+form input{
+    margin: 0.5rem 0.5rem;
+    padding: 0.1rem 0.1rem;
+    border: none;   
+    outline: none;
+    background:#f8f8f8;
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-radius: 3px 3px 0px 0px;
+    height: 1.7rem;
+    font-size: 0.95rem;
+    padding-left: 0.3rem;
+    color: rgb(75, 75, 75);
+}
+form input:focus{
+    border-bottom: 2px solid blueviolet;
+}
+.container{
+    /* padding-top: 1.5rem; */
+    width: 500px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background: #f4e8ff;
+    padding: 40px;
+}
+
+table{
+    border: blueviolet 2px solid;
+    margin-top: 1rem;
+}
+.btn{
+    width: 6rem;
+    height: 1.7rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    background-color: rgb(156, 77, 231);
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: rgb(130, 29, 224);
+}
